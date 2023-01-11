@@ -1,0 +1,8 @@
+git branch assignment2
+
+Nodejs:
+     It is used as server side programming and gives us a environment to run javascript files.
+     IT has inbuilt libraries.
+Jacascript:
+     It is a programming language used to develop logic in a website.
+     we can also use it in Data structures and algorithms
