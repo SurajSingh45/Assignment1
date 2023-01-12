@@ -1,0 +1,18 @@
+1.Nodejs architecture: Node. js uses the “Single Threaded Event Loop” architecture to handle multiple concurrent clients. Node. js Processing Model is based on the JavaScript event-based model along with the JavaScript callback mechanism.
+2.Non Blocking:-whole code is executed line by line and when async part of code is encounters it is executed later so that rest of the code is not blocked
+  Synchronous:- code execution is Synchronous as code execution is not blocked as async part of code.
+  single threaded:-It is a single threaded as its easy to maintain and free of all the complications that arises due to multi threaded code execution
+3.let arr = new Array(1,2,3,4)
+  for( let i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+  }  
+4.let arr=[0,1,2,3]
+  arr.sort()
+  arr.pop()
+  arr.append(4)
+5. " let " is more secure and scopeable than " var " as it stays in the memory even out of scope of its block.Array
+6.  data types in JavaScript are divided into two broad categories, primitive and non-primitive.
+
+    The Primitive Data types in JavaScript include Number, String, Boolean, Undefined, Null and Symbol.
+
+    The Non-Primitive data type has only one member i.e. the Object.
