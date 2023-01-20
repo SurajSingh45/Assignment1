@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="heading">
+    <!-- <div class="heading">
         <h1 id="h">LPU</h1>
     </div>
     <div class="heading">
@@ -16,14 +16,52 @@
     <div class="heading">
         <h1>HBE</h1>
     </div>
-    <h1 class="heading">Lovely Professional University</h1>
+    <h1 class="heading">Lovely Professional University</h1> -->
 
+    <!-- <div class="demo">
+        <div>
+            <p>Hey Everyone!!</p>
+        </div>
+    </div>
+    <div class="demo">
+        <div>
+            <h1>Good Evening Guys!!</h1>
+        </div>
+        <div class="demo">
+            <h2>Lpu</h2>
+        </div>
+    </div> -->
+        <form action="#">
+            <lable for="fname">First Name :</lable><br>
+            <input type="text" id="fname"><br>
+            <lable for="lname">Last Name :</lable><br>
+            <input type="text" id="lname"><br>
+            <button onclick="btnClick()">Submit</button>
+        </form>
+
+        
 <script>
-    let result = document.querySelectorAll(".heading")
-    for(let index = 0; index < result.length; index++){
-        const element = result[index];
-        element.innerText = "Got it Guys!!!"
+    function btnClick(){
+        console.log("btn clicked....")
     }
+
+
+// const node = document.createElement("h1")
+// node.innerText= "HBE"
+// let result = document.getElementsByClassName("demo");
+// result[1].appendChild(node)
+// let result=document.getElementsByClassName("demo");
+
+// result[1].innerHTML += "<h1>How are you???</h1>"
+
+// let result=document.getElementsByClassName("demo");
+// console.log(result[1].innerText)
+// result[1].innerHTML = "<h1>How are you???</h1>"
+    // let result = document.querySelectorAll(".heading")
+    // for(let index = 0; index < result.length; index++){
+    //     const element = result[index];
+    //     element.innerText = "Got it Guys!!!"
+    // }
 </script>
 </body>
 </html>
