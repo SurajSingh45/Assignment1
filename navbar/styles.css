@@ -49,7 +49,19 @@
         position: absolute;
         border-radius: 9px;
     }
+    .home:hover .dropdown{
+        display: block;
+    }
+    .about:hover .dropdown{
+        display: block;
+    }
     .services:hover .dropdown{
+        display: block;
+    }
+    .pricing:hover .dropdown{
+        display: block;
+    }
+    .contact:hover .dropdown{
         display: block;
     }
 
