@@ -64,14 +64,15 @@
             reset();
         }
         else if((x > y) && guess >0){
-            alert("try smaller no");
+            alert("OOPS!! Try Smaller No");
            
         }
         else if((x < y) && guess >0){
-            alert("try greater no");
+            alert("OOPS!! Try Greater No");
            
         }
         if(guess ==0){
+            alert("Sorry!! You Lost")
             reset();
         }
         document.getElementById("guessField").value = " ";
